@@ -1,0 +1,44 @@
+.modal-form{
+   position: fixed;
+   background-color: hsla(0, 0%, 0%, 0.1);
+   backdrop-filter: blur(4px);
+   width: 100%;
+   left: 0;
+   top: 0;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   display: none;
+   z-index: -1;
+}
+
+.on-modal-frm{
+   display: flex;
+   z-index: 100;
+   animation: fadeInModalBg .3s;
+   background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+@keyframes fadeInModalBg {
+   0%{ background-color: hsla(0, 0%, 0%, 0.1); }
+   100%{ background-color: hsla(0, 0%, 0%, 0.4); }
+}
+
+.on-modal-frm .box{
+   animation: fadeInModal .3s;
+}
+
+@keyframes fadeInModal {
+   0%{ transform: scale(.88); opacity: 0; }
+   100%{ transform: scale(1); opacity: 1; }
+}
+
+.modal-form .box{
+   max-width: 480px;
+   padding: 2rem;
+   width: 100%;
+}
+.form-reg>button{
+   display: block;
+   margin-left:auto ;
+}

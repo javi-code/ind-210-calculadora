@@ -1,0 +1,27 @@
+@media print {
+   .th-sort-active,
+   body{
+      background-color: white;
+   }
+   .ic-ation-in,
+   .not-print,
+   .header,
+   .box-sidebar{
+      display: none !important;
+   }
+   .collapse-sidebar .main-content,
+   .main-content{
+      width: 100%;
+   }
+   .box-form, .box{
+      box-shadow: none;
+   }
+   .only-print{
+      display: block !important;
+   }
+   
+   table th,
+   table{
+      color: black;
+   }
+}

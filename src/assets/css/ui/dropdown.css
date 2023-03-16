@@ -1,0 +1,10 @@
+.dropdown{
+   display: none;
+   position: absolute;
+   right: 0;
+   min-width: 150px;
+   z-index: 1;
+}
+.show-dropdown{
+   display: block;
+}

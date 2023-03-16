@@ -1,0 +1,197 @@
+.p-0,
+.pd-0{
+   padding: 0 !important;
+}
+.p-2{
+   padding: .2rem;
+}
+.p-4{
+   padding: .4rem;
+}
+.mt-5{
+   margin-top: 5rem;
+} 
+.mt{
+   margin-top: .8rem;
+}
+.ml{
+   margin-left: .8rem;
+}
+.mb{
+   margin-bottom: .8rem;
+}
+.mb-12{
+   margin-bottom: 1.2rem;
+}
+.mb-15{
+   margin-bottom: 1.5rem;
+}
+.mb-2{
+   margin-bottom: 2rem;
+}
+.mt-3{
+   margin-top: 3rem;
+}
+.mt-2{
+   margin-top: 2rem;
+}
+.mr{
+   margin-right: .8rem;
+}
+.mr-4{
+   margin-right: .4rem;
+}
+.mr-2{
+   margin-right: .2rem;
+}
+.ma{
+   margin: auto;
+}
+.relative{
+   position: relative;
+}
+.absolute{
+   position: absolute;
+}
+.float-r{
+   float: right;
+}
+.small{
+   font-size: .75rem;
+}
+
+.bold{
+   font-weight: bold;
+}
+.line-h12{
+   line-height: 1.2;
+}
+.upper{
+   text-transform: uppercase;
+}
+.w-30{
+   width: 30px
+}
+.w-40{
+   width: 40px;
+}
+.w-50{
+   width: 50px;
+}
+.w-80{
+   width: 80px;
+}
+.w-100{
+   width: 100px;
+}
+.w-120{
+   width: 120px;
+}
+.mxw-30x{
+   max-width: 300px;
+}
+.mxw-20x{
+   max-width: 200px;
+}
+.w-15x{
+   width: 150px;
+}
+.mxw-15x{
+   max-width: 150px;
+}
+.w-full,
+.w{
+   width: 100%;
+}
+.h{
+   height: 100%;
+}
+.w-40x{
+   width: 400px;
+}
+.w-85{
+   width: 85px;
+}
+.w-120{
+   width: 120px;
+}
+.min-w8x{
+   min-width: 80px;
+}
+.min-w20x{
+   min-width: 200px;
+}
+.min-w25x{
+   min-width: 250px;
+}
+.min-w15x{
+   min-width: 150px;
+}
+.min-w10x{
+   min-width: 100px;
+}
+.min-w12x{
+   min-width: 120px;
+}
+.min-h3x{
+   min-height: 30px;
+}
+.fz-1-2{
+   font-size: 1.2rem;
+}
+.fz-9{
+   font-size: .9rem;
+}
+.fz-8{
+   font-size: .8rem;
+}
+.fz-7{
+   font-size: .7rem;
+}
+.fz-6{
+   font-size: .6rem;
+}
+.fz-5{
+   font-size: .5rem;
+}
+.not-hover{
+   pointer-events: none;
+}
+.op-5{
+   opacity: .5;
+}
+.bg2{
+   background-color: var(--color-bg-two);
+}
+.bg3{
+   background-color: var(--color-bg-tre);
+}
+.color-1{
+   color: var(--color-one);
+}
+.color-text-2{
+   color: var(--color-text-two);
+}
+.mxw-20x input{
+   width: 100%;
+}
+.pd-4-2{
+   padding: .4rem .2rem
+}
+
+.toggle,
+.item-head,
+.ic--vert,
+.item-option{
+   cursor: pointer;
+}
+
+.box-empty,
+.toggle,
+.item-head,
+.item-option{
+   user-select: none;
+}
+.block-inp input{
+   display: block;
+}

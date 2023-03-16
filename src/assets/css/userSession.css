@@ -1,0 +1,31 @@
+.box-user{
+   position: relative;
+}
+
+.box-user .dropdown{
+   min-width: 200px;
+}
+.item-option{
+   padding: .4rem;
+   border-radius: var(--radius-base);
+}
+.item-option:hover{
+   background-color: var(--color-bg-two);
+}
+.item-option i{
+   margin-right: .4rem;
+}
+.item-option span{
+   font-size: .9rem;
+}
+
+.close-sesion{
+   margin: auto;
+   margin-top: 1rem;
+   display: block;
+}
+.a-link-option{
+   display: block;
+    color: inherit;
+    text-decoration: none;
+}

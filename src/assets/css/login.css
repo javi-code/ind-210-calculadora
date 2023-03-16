@@ -1,0 +1,31 @@
+
+.box-log{
+   width: 100%;
+   max-width: 300px;
+   padding: 1rem;
+}
+.log-sms-error{
+   background-color: #d35353;
+   padding: .4rem;
+   font-size: .8rem;
+   color: white;
+   border-radius: 6px;
+}
+.box-log h2{
+   margin-bottom: 2rem;
+   color: var(--color-one);
+}
+
+.login-content{
+   height: 100vh;
+}
+
+.btn-login{
+   padding: .8rem 2rem;
+   display: block;
+   margin: auto;
+   width: 160px;
+   margin-top: 2rem;
+   color: white;
+   background: var(--btn-degradado)
+}

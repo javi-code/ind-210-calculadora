@@ -1,0 +1,48 @@
+
+.notify--box {
+	position: fixed;
+	z-index: 200;
+	bottom: 10px;
+	right: 10px;
+	transition-duration: 0.5s;
+}
+.notify-item {
+	padding: 0.6rem;
+	width: 300px;
+	margin-top: 0.8rem;
+	color: var(--color-text-white);
+	animation: showNotify 0.4s;
+	border-radius: var(--radius-base);
+}
+.notify-item h5 {
+	margin-bottom: 0.5rem;
+}
+@keyframes showNotify {
+	0% {
+		opacity: 0;
+		transform: translateY(60px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.notify-close {
+	float: right;
+	font-size: 1.4rem;
+}
+.notify-error {
+	background-color: var(--color-error);
+}
+.notify-success {
+	background-color: var(--color-success);
+}
+.notify-warning {
+	background-color: var(--color-warning);
+}
+.notify-info {
+	background-color: var(--color-info);
+}
+.show-notify {
+	display: block;
+}
